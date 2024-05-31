@@ -1,0 +1,153 @@
+
+  
+  body {
+    background-image:linear-gradient(to right,#A1FFCE,#FAFFD1);
+  }
+  .todo-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 520px;
+    min-height: 600px;
+    background: #d5c9c7;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+  }
+  
+  .heading{
+    
+    margin-top:30px;
+    color: orangered;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align:center;
+  }
+  
+  .complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+  }
+  
+  .todo-form {
+    margin-bottom: 32px;
+  }
+  
+  .todo-input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #233142;
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: black;
+    margin-top: 25px;
+    margin-left: 450px;
+  }
+  
+  .todo-input::placeholder {
+    color: black;
+  }
+  
+  .todo-button {
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    outline:whitesmoke;
+    background: #d62828;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 5px;
+  }
+  
+  .todo-input.edit {
+    border: 2px solid black;
+  }
+  
+  .todo-button.edit {
+    background: #8b6508;
+    
+  }
+  
+  .todo-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  
+  .todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background: #800000;
+    padding: 16px;
+    border-radius: 5px;
+    width: 40%;
+    cursor:pointer;
+  }
+  
+  .todo-row:nth-child(4n + 1) {
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+  }
+  
+  .todo-row:nth-child(4n + 2) {
+    background:#f4456e;
+  }
+  
+  .todo-row:nth-child(4n + 3) {
+    background: #4c005a;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .edit-icon {
+    color: #fff;
+  }
+
+  .new-form {
+    background: transparent !important;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+  }
+
+  .text-center.register{
+    font-weight: bold;
+  }
+
+  .bttn{
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+
+  .bttn:hover{
+    background-color: rgb(92 99 106);
+    color: white;
+    border-color: rgb(92 99 106);
+  }
+
+  .card{
+    background: transparent;
+    border: none;
+  }
